@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.friendstr_game.RegistrationFragment"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/logoImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="70dp"
+        android:src="@drawable/registration_user_logo" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/logoImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_text_input_registration"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/weakwhite"
+        android:textColor="@color/weakwhite"/>
+
+    <EditText
+        android:id="@+id/newPassInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/emailInput"
+        android:layout_alignStart="@+id/emailInput"
+        android:layout_alignLeft="@+id/emailInput"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_text_input_registration"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/weakwhite"
+        android:textColor="@color/weakwhite"
+        />
+
+    <EditText
+        android:id="@+id/confPasswordInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/newPassInput"
+        android:layout_below="@+id/newPassInput"
+        android:layout_alignStart="@+id/newPassInput"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_text_input_registration"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:textColorHint="@color/weakwhite"
+        android:textColor="@color/weakwhite"
+        />
+
+    <EditText
+        android:id="@+id/newUserNameInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/confPasswordInput"
+        android:layout_below="@+id/confPasswordInput"
+        android:layout_alignStart="@+id/confPasswordInput"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_text_input_registration"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:textColorHint="@color/weakwhite"
+        android:textColor="@color/weakwhite"/>
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/newUserNameInput"
+        android:layout_alignStart="@+id/newUserNameInput"
+        android:layout_alignLeft="@+id/newUserNameInput"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/font"
+        android:background="@drawable/next_button_pressed"
+        android:text="SIGN UP" />
+
+
+</RelativeLayout>

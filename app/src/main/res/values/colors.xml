@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="friends1">#ff4747</color>
+    <color name="friends2">#00c790</color>
+    <color name="friends3">#51ff77</color>
+    <color name="friends4">#f6ff60</color>
+    <color name="friends5">#ffa345</color>
+    <color name="black">#99000000</color>
+    <color name="weakwhite">#B3FFFFFF</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="green">#278727</color>
+    <color name="default_green">#449D44</color>
+    <color name="button_pressed_color">#99ffe2</color>
+    <color name="sign_in_pressed_color">#ff6666</color>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home"
+    android:background="@drawable/logo"
+    android:layoutDirection="ltr">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/friends4"
+            app:tabBackground="@color/friends2"
+            app:tabTextColor="@color/friends4"
+            app:tabIndicatorHeight="2dp"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/myViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+<!--
+
+<Button
+android:id="@+id/loginBtn"
+android:layout_width="200dp"
+android:layout_height="50dp"
+android:text="Log In"
+android:layout_marginTop="400dp"
+android:background="@drawable/button_shape_welcome_activity"
+android:fontStyle="italic"/>
+
+<Button
+android:id="@+id/createAccountBtn"
+android:layout_width="200dp"
+android:layout_height="50dp"
+android:text="Create Account"
+android:layout_marginTop="15dp"
+android:background="@drawable/button_shape_welcome_activity"
+android:fontStyle="italic"
+    />-->

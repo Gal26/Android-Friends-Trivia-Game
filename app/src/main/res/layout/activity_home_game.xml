@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logo_home_games"
+    android:layoutDirection="ltr"
+    tools:context="com.example.friendstr_game.HomeGameActivity">
+
+    <ImageView
+        android:id="@+id/welcome_user_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="235dp"
+        android:padding="8dp"
+        android:src="@drawable/welcome_user"/>
+
+    <ImageView
+        android:id="@+id/high_score_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/welcome_user_logo"
+        android:layout_alignStart="@+id/welcome_user_logo"
+        android:layout_alignLeft="@+id/welcome_user_logo"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:src="@drawable/high_score_logo" />
+
+    <TextView
+        android:id="@+id/user_name_display"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font"
+        android:text="UserName">
+    </TextView>
+
+    <TextView
+        android:id="@+id/high_score_display"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/user_name_display"
+        android:layout_alignStart="@+id/user_name_display"
+        android:layout_alignLeft="@+id/user_name_display"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font"
+        android:text="0">
+    </TextView>
+
+    <Button
+        android:id="@+id/start_quiz_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/high_score_logo"
+        android:layout_alignStart="@+id/high_score_logo"
+        android:layout_alignLeft="@+id/high_score_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/next_button_pressed"
+        android:fontFamily="@font/font"
+        android:text="New Game" />
+
+    <Button
+        android:id="@+id/ranking_page_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_quiz_btn"
+        android:layout_alignStart="@+id/start_quiz_btn"
+        android:layout_alignLeft="@+id/start_quiz_btn"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/next_button_pressed"
+        android:fontFamily="@font/font"
+        android:text="Top 10" />
+</RelativeLayout>

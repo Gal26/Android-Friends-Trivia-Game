@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.friendstr_game.SignInFragment"
+    android:background="@color/black"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/login"
+        android:padding="70dp"
+        android:id="@+id/logoImg"
+        />
+
+    <EditText
+        android:id="@+id/userNameInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_text_input_registration"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/logoImg"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:textColorHint="@color/weakwhite"
+        android:textColor="@color/weakwhite"
+         />
+
+    <EditText
+        android:id="@+id/passInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/userNameInput"
+        android:layout_below="@+id/userNameInput"
+        android:layout_alignStart="@+id/userNameInput"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_text_input_registration"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:textColorHint="@color/weakwhite"
+        android:textColor="@color/weakwhite"
+        />
+
+    <Button
+        android:id="@+id/signInBtn"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/passInput"
+        android:layout_alignStart="@+id/passInput"
+        android:layout_alignLeft="@+id/passInput"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/font"
+        android:background="@drawable/sign_in_pressed"
+        android:text="SIGN IN" />
+
+
+    <!--    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Fragment"
+            android:textSize="30dp"
+            android:layout_centerInParent="true"/>-->
+</RelativeLayout>

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "206886246113",
+    "firebase_url": "https://friendsquiz-2360e.firebaseio.com",
+    "project_id": "friendsquiz-2360e",
+    "storage_bucket": "friendsquiz-2360e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206886246113:android:26b86a23f5b3b72a3709a0",
+        "android_client_info": {
+          "package_name": "com.example.friendstr_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206886246113-lgpcei7b5eu1qk8tj4ngqtb15tgdjlqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.friendstr_game",
+            "certificate_hash": "44261f6ab0099cb203045b733f73079bc87c0c3e"
+          }
+        },
+        {
+          "client_id": "206886246113-9pkimiqvkcql40ao2gd9ig7sd0qd1meo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCu0HvrVqM1Cu7lCisI14N4zBj2seZ6vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206886246113-9pkimiqvkcql40ao2gd9ig7sd0qd1meo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206886246113:android:06f3d9a8ea2b22df3709a0",
+        "android_client_info": {
+          "package_name": "com.example.mypos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206886246113-mqcvmoguu7paols5i37r8nupfc6njqs7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mypos",
+            "certificate_hash": "44261f6ab0099cb203045b733f73079bc87c0c3e"
+          }
+        },
+        {
+          "client_id": "206886246113-9pkimiqvkcql40ao2gd9ig7sd0qd1meo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCu0HvrVqM1Cu7lCisI14N4zBj2seZ6vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206886246113-9pkimiqvkcql40ao2gd9ig7sd0qd1meo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
