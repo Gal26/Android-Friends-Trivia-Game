@@ -5,7 +5,7 @@ How much do you know about Rachel, Ross, Monica, Chandler, Phoebe and Joey?<br/>
 # Features
 - Added comments above code so it will help you understand code much better 
 - It has database to store questions (FB)
-- Timmer & ProgressBar of 20 sec for each question (Timer at top left corner)
+- Timer & ProgressBar of 20 sec for each question (Timer at top left corner)
 - Random questions at each play (It will peek random ques and will show it to the user)
 - Ranking Borad which updates RT
 - Good and Extensible UI
@@ -14,13 +14,14 @@ How much do you know about Rachel, Ross, Monica, Chandler, Phoebe and Joey?<br/>
 
   
 # Screenshots
-<img align="left" width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/LoginNReg.PNG">
+<p align="center">
+<img  width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/LoginNReg.PNG">
 
-<img align="left" width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/Question.PNG">
+<img  width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/Question.PNG">
 
-<img align="left" width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/Dialogs.PNG">
+<img width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/Dialogs.PNG">
+</p>
 
-<br/>
 
 # Libraries
 This app leverages two third-party libraries:
