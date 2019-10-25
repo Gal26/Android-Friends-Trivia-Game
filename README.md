@@ -3,14 +3,14 @@
 How much do you know about Rachel, Ross, Monica, Chandler, Phoebe and Joey?<br/> Find out by taking this Friends quiz!
 
 # Features
-- Added comments above code so it will help you understand code much better 
-- It has database to store questions (FB)
-- Timer & ProgressBar of 20 sec for each question (Timer at top left corner)
 - Random questions at each play (It will peek random ques and will show it to the user)
-- Ranking Borad which updates RT
+- Ranking Board which has updates RT
+- Timer & ProgressBar of 20 sec for each question (Timer at top left corner)
+- It has database to store questions and users (FB)
+- Compatibility with Android API-14 and above
 - Good and Extensible UI
 - Can be played offline 
-- Compatibility with Android API-14 and above
+
 
   
 # Screenshots
