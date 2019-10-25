@@ -11,7 +11,12 @@ How much do you know about Rachel, Ross, Monica, Chandler, Phoebe and Joey?<br/>
 - Can be played offline 
 - Compatibility with Android API-14 and above
 
-
+# Libraries
+This app leverages two third-party libraries:
+ * [AndroidViewAnimation](https://github.com/daimajia/AndroidViewAnimations) - For animate the update questions, correct and wrong answers
+  * [SweetAlertDialog](https://github.com/pedant/sweet-alert-dialog) - For showing dialogs in a few different mods. (Game over, onBackPressed, etc.) 
+  * Firebase
+  
 # Screenshots
 <img align="left" width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/LoginNReg.PNG">
 
@@ -22,11 +27,6 @@ How much do you know about Rachel, Ross, Monica, Chandler, Phoebe and Joey?<br/>
 
 
 
-# Libraries
-This app leverages two third-party libraries:
- * [AndroidViewAnimation](https://github.com/daimajia/AndroidViewAnimations) - For animate the update questions, correct and wrong answers
-  * [SweetAlertDialog](https://github.com/pedant/sweet-alert-dialog) - For showing dialogs in a few different mods. (Game over, onBackPressed, etc.) 
-  * Firebase
 
 
 
