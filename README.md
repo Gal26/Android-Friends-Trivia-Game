@@ -27,7 +27,7 @@ How much do you know about Rachel, Ross, Monica, Chandler, Phoebe and Joey?<br/>
 This app leverages three third-party libraries:
  * [AndroidViewAnimation](https://github.com/daimajia/AndroidViewAnimations) - For animate the update questions, correct and wrong answers
   * [SweetAlertDialog](https://github.com/pedant/sweet-alert-dialog) - For showing dialogs in a few different mods. (Game over, onBackPressed, etc.) 
-  * Firebase
+  * [Firebase](https://firebase.google.com/) - Store and sync data
 
 
 
