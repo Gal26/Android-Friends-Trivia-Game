@@ -14,7 +14,7 @@ How much do you know about Rachel, Ross, Monica, Chandler, Phoebe and Joey?<br/>
 
   
 # Screenshots
-<p align="center">
+<p align="left">
 <img  width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/LoginNReg.PNG">
 
 <img  width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/Question.PNG">
@@ -24,7 +24,7 @@ How much do you know about Rachel, Ross, Monica, Chandler, Phoebe and Joey?<br/>
 
 
 # Libraries
-This app leverages two third-party libraries:
+This app leverages three third-party libraries:
  * [AndroidViewAnimation](https://github.com/daimajia/AndroidViewAnimations) - For animate the update questions, correct and wrong answers
   * [SweetAlertDialog](https://github.com/pedant/sweet-alert-dialog) - For showing dialogs in a few different mods. (Game over, onBackPressed, etc.) 
   * Firebase
