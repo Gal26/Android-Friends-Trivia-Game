@@ -2,6 +2,17 @@
 
 How much do you know about Rachel, Ross, Monica, Chandler, Phoebe and Joey?<br/> Find out by taking this Friends quiz!
 
+# Features
+- Added comments above code so it will help you understand code much better 
+- It has database to store questions (FB)
+- Timmer & ProgressBar of 20 sec for each question (Timer at top left corner)
+- Random questions at each play (It will peek random ques and will show it to the user)
+- Good and Extensible UI.
+- Can be played offline 
+- Compatibility with Android API-14 and above
+
+
+# Screenshots
 <img align="left" width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/LoginNReg.PNG">
 
 <img align="left" width="700" height="400" src="https://raw.githubusercontent.com/Gal26/Android-Friends-Trivia-Game/master/ReadMEImg/Question.PNG">
